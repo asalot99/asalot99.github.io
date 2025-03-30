@@ -141,17 +141,29 @@ footer a:hover {
     max-width: 100%;
 }
 
-.snippet-content a {
-    display: block;
-    color: #333;
-    text-decoration: none;
+.snippet-title {
     margin-bottom: 1rem;
     font-size: 14px;
-    font-weight: 500;
+    color: #333;
 }
 
-.snippet-content a:hover {
+.snippet-title a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.snippet-title a:hover {
     text-decoration: underline;
+}
+
+.quote-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+    padding: 1.5rem;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #fff;
 }
 
 .quote-image {
