@@ -132,4 +132,32 @@ footer a:hover {
         flex-direction: column;
         gap: 0.5rem;
     }
+}
+
+/* Add these styles after the existing blog-list styles */
+
+.snippet-content {
+    margin-bottom: 2rem;
+}
+
+.snippet-content a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+
+.snippet-content a:hover {
+    text-decoration: underline;
+}
+
+.quote-image {
+    margin-top: 1rem;
+}
+
+.quote-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 } 
